@@ -25,4 +25,9 @@ last_name VARCHAR(30) NOT NULL,
 role_id INTEGER,
 manager_id INTEGER,
 PRIMARY KEY (id)
-); 
+);
+
+INSERT INTO department(name)
+VALUES("Engineering"), ("Sales"), ("Finance"), ("Marketing");
+
+SELECT * FROM department;
